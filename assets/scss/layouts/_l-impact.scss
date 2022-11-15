@@ -1,0 +1,13 @@
+$layout-name: 'l-impact';
+
+.#{$layout-name} {
+    &__items {
+        &__number {
+            font-size: 3.75rem;
+        }
+
+        &__description {
+            font-size: 1.4375rem;
+        }
+    }
+}

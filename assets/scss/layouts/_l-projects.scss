@@ -1,0 +1,28 @@
+$layout-name: 'l-projects';
+
+.#{$layout-name} {
+    &__card {
+        border-width: 3px !important; 
+        border-radius: 0 !important;
+    }
+
+    &__card-title {
+        font-size: 1.375rem;
+    }
+
+    &__local {
+        padding: .3rem .5rem;
+        font-size: .75rem;
+    }
+
+    &__card-img {
+        img {
+            width: 324px;
+            height: 217px;
+        }
+    }
+
+    &__card-text {
+        font-size: .8125rem;
+    }
+}
